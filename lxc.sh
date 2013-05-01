@@ -22,4 +22,4 @@ else
     $DIR/lxcln.sh $HOST 0
 fi
 
-sudo aptitude install lxc bridge-utils libvirt-bin debootstrap cgroup-bin lvm2 
+sudo aptitude -y install lxc bridge-utils libvirt-bin debootstrap cgroup-bin lvm2 
