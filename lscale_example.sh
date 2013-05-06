@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export http_poxy=http://proxy.atlantis.ugent.be:8080
+export http_proxy=http://proxy.atlantis.ugent.be:8080
 
 sudo aptitude update
 sudo aptitude -y install build-essential python-pip python-dev libxml2-dev libxslt1-dev
